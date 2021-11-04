@@ -1,0 +1,21 @@
+но€б. 04, 2021 5:32:08 PM Parsing GetWeb
+WARNING: Exception: 
+java.lang.IllegalArgumentException: Malformed URL: mm
+	at org.jsoup.helper.HttpConnection.url(HttpConnection.java:186)
+	at org.jsoup.helper.HttpConnection.connect(HttpConnection.java:81)
+	at org.jsoup.Jsoup.connect(Jsoup.java:92)
+	at Parsing.GetWeb(Parsing.java:17)
+	at Main.main(Main.java:18)
+Caused by: java.net.MalformedURLException: no protocol: mm
+	at java.base/java.net.URL.<init>(URL.java:674)
+	at java.base/java.net.URL.<init>(URL.java:569)
+	at java.base/java.net.URL.<init>(URL.java:516)
+	at org.jsoup.helper.HttpConnection.url(HttpConnection.java:184)
+	... 4 more
+
+но€б. 04, 2021 5:32:08 PM Parsing ParsingWeb
+WARNING: Exception: 
+java.lang.NullPointerException: Cannot invoke "org.jsoup.nodes.Document.text()" because "this.doc" is null
+	at Parsing.ParsingWeb(Parsing.java:32)
+	at Main.main(Main.java:22)
+
